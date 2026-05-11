@@ -59,7 +59,8 @@ AgentClinic should move in nano phases. Each phase should be small enough to com
 
 - Decide whether the next interface should be CLI, web UI, or both.
 - If CLI, add a small intake command.
-- If web UI, add a minimal case queue before decorative pages.
+- If web UI, add a responsive minimal case queue before decorative pages.
+- Validate any web UI across mobile, tablet, and desktop viewport sizes.
 
 ## Phase 9: Relief Workflow
 

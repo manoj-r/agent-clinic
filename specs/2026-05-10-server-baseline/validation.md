@@ -35,4 +35,5 @@ The feature can be merged when:
 - No automated test runner is required for this phase.
 - No database or in-memory case log is added.
 - No `POST /intake` route is added.
-- No frontend, CLI, or deployment notes are added.
+- No frontend, CLI, or deployment implementation is added.
+- No responsive web UI is implemented in this phase; future web UI validation must cover mobile, tablet, and desktop viewports.

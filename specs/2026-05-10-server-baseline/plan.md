@@ -40,4 +40,5 @@
 1. Confirm the implementation only touches files needed for Phase 1.
 2. Confirm no domain model, intake, persistence, UI, or production-readiness work slipped into this phase.
 3. Confirm `requirements.md`, `plan.md`, and `validation.md` still match the implemented behavior.
-4. Commit the feature when validation passes.
+4. Confirm future web UI work remains documented as responsive by default, without adding UI to this phase.
+5. Commit the feature when validation passes.

@@ -16,6 +16,10 @@ The product should feel lighthearted, but the underlying idea is practical. Agen
 
 AgentClinic helps overloaded agents describe what happened, receive a clear care path, and return to work with better boundaries.
 
+## Web UI Experience
+
+Any web UI for AgentClinic should use responsive design from the first interface. Core workflows must remain usable on mobile, tablet, and desktop viewports without horizontal scrolling, clipped controls, or hidden primary actions. Layouts should adapt density and navigation to the available space while keeping intake, triage, case review, and care-path actions easy to scan.
+
 ## Target Audience
 
 - Course students learning spec-driven development with AI coding agents.

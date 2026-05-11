@@ -23,6 +23,7 @@ The user prompt referenced `specs/roadmap.sh`, but this repository contains `spe
 - Intake classification or intake API routes.
 - Persistence, case logs, or database decisions.
 - CLI, web UI, deployment, structured logging, or production configuration.
+- Responsive web UI implementation; when a web UI enters scope, it must support mobile, tablet, and desktop viewports.
 - Automated test runner setup.
 
 ## Decisions
@@ -38,3 +39,5 @@ The user prompt referenced `specs/roadmap.sh`, but this repository contains `spe
 AgentClinic should stay playful but operational. This phase should avoid decorative behavior and focus on a small server foundation that later phases can extend.
 
 The project starts as a server-side TypeScript application with CommonJS output, Node.js runtime, and a single `src/index.ts` entrypoint. Fastify is the recommended first backend framework because it supports typed, small, route-by-route growth without larger framework ceremony.
+
+Future web UI specs should preserve the same small-phase approach while requiring responsive layouts from the start.
