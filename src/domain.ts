@@ -18,3 +18,8 @@ export interface TriageResult {
   severity: 'low' | 'moderate' | 'high';
   recommendedAction: 'request-clarification' | 'reduce-scope' | 'escalate' | 'rest';
 }
+
+export interface CareRecommendation {
+  action: TriageResult['recommendedAction'];
+  summary: string;
+}

@@ -2,6 +2,7 @@
 
 ## 2026-05-10
 
+- Added the API-only MVP intake flow with classification and care recommendations.
 - Added first domain type contracts for agent strain, intake requests, and triage results.
 - Added the Phase 2 first domain types feature spec.
 - Added the Fastify server baseline with a `GET /health` endpoint.
