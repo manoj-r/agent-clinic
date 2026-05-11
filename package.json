@@ -4,9 +4,12 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "start": "node dist/index.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "fastify": "^5.8.5"
+  },
   "devDependencies": {
     "typescript": "^5.5.3"
   },
